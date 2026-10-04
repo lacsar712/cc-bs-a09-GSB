@@ -10,7 +10,7 @@ body {
 }
 
 .wrap {
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 1.5rem 1rem;
 }
@@ -128,4 +128,123 @@ th {
 .tag.wait {
   background: #fff8e1;
   color: #f57f17;
+}
+
+.topright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.nav {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.nav button.active {
+  background: #1565c0;
+  color: #fff;
+}
+
+.userline {
+  font-size: 0.85rem;
+  color: #555;
+  white-space: nowrap;
+}
+
+select {
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  min-width: 200px;
+  background: #fff;
+}
+
+.hint {
+  color: #555;
+  font-size: 0.82rem;
+  margin: 0.6rem 0 0;
+}
+
+.hint a {
+  color: #1565c0;
+}
+
+h3 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1rem;
+}
+
+.gauge-badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+}
+
+.gauge-badge.on {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.gauge-badge.off {
+  background: #eceff1;
+  color: #607d8b;
+}
+
+.ro {
+  color: #90a4ae;
+  font-size: 0.82rem;
+}
+
+button.mini {
+  padding: 0.25rem 0.6rem;
+  font-size: 0.78rem;
+  background: #ef6c00;
+}
+
+button.mini.danger {
+  background: #b00020;
+}
+
+.readonlybanner {
+  background: #f5f7fa;
+  border-style: dashed;
+  color: #555;
+}
+
+.act {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+}
+
+.act-register {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.act-retire {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+.act-delete {
+  background: #ffebee;
+  color: #b00020;
+}
+
+.act-bind {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.sample {
+  margin: 0 0 1rem 1.2rem;
+  padding-left: 0.4rem;
+  color: #444;
+  font-size: 0.88rem;
+  line-height: 1.7;
 }
