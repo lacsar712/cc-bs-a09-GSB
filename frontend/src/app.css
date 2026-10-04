@@ -129,3 +129,134 @@ th {
   background: #fff8e1;
   color: #f57f17;
 }
+
+.topright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+nav.tabs {
+  display: flex;
+  gap: 0.4rem;
+}
+
+a.tab {
+  padding: 0.35rem 0.9rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  background: #eceff1;
+  color: #37474f;
+  border: 1px solid #cfd8dc;
+}
+
+a.tab.active {
+  background: #1565c0;
+  color: #fff;
+  border-color: #1565c0;
+}
+
+.userline {
+  font-size: 0.85rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bound-hint {
+  font-size: 0.8rem;
+  color: #1565c0;
+  padding-bottom: 0.55rem;
+}
+
+.ro {
+  margin-left: 0.6rem;
+  font-size: 0.78rem;
+  font-weight: normal;
+  color: #78909c;
+}
+
+.example {
+  margin-top: 0.75rem;
+  padding: 0.6rem 0.75rem;
+  background: #f1f8e9;
+  border: 1px solid #dcedc8;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: #33691e;
+}
+
+.example code,
+td code {
+  background: #eceff1;
+  padding: 0.05rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+.muted {
+  color: #90a4ae;
+}
+
+form.roster-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: flex-end;
+}
+
+.inline {
+  display: flex;
+  gap: 0.35rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+input.bind-input {
+  min-width: 150px;
+}
+
+button.mini {
+  padding: 0.35rem 0.7rem;
+  font-size: 0.8rem;
+  background: #455a64;
+}
+
+button.mini.warn {
+  background: #ef6c00;
+}
+
+button.mini.danger {
+  background: #c62828;
+}
+
+.taglog {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.78rem;
+}
+
+.gact-register {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.gact-bind {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.gact-retire {
+  background: #fff3e0;
+  color: #ef6c00;
+}
+
+.gact-delete {
+  background: #ffebee;
+  color: #c62828;
+}
